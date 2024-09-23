@@ -13,3 +13,4 @@ Run `ng serve` for a dev server. Navigate to [http://localhost:4200/](http://loc
   - setup
     - provideRouter
     - `<router-outlet />`
+  - register routes

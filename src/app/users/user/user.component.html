@@ -2,7 +2,7 @@
   <!-- Use routerLink instead of href to 
           prevent full page reloads and 
           enhance navigation performance by dynamically updating components based on route configuration-->
-  <a routerLink="/tasks">
+  <a [routerLink]="['/users', user().id]">
     <img [src]="imagePath()" [alt]="user().name" />
     <span>{{ user().name }}</span>
   </a>

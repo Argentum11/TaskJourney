@@ -2,7 +2,8 @@
   <header>
     <h2>{{ userName }}'s Tasks</h2>
     <menu>
-      <a>Add Task</a>
+      <!-- 'tasks/new' is a relative link, relative to the current activated route -->
+      <a [routerLink]="['tasks/new']">Add Task</a>
     </menu>
   </header>
 

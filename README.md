@@ -20,3 +20,5 @@ Run `ng serve` for a dev server. Navigate to [http://localhost:4200/](http://loc
     - withComponentInputBinding
     - activatedRoute
   - nested routes
+    - access parent route
+      - activatedRoute

@@ -17,8 +17,9 @@ Run `ng serve` for a dev server. Navigate to [http://localhost:4200/](http://loc
   - links and routes
   - dynamic routes
   - extract route parameter
-    - withComponentInputBinding
+    - component input (withComponentInputBinding)
     - activatedRoute
   - nested routes
     - access parent route
+      - component input (paramsInheritanceStrategy)
       - activatedRoute

@@ -11,7 +11,7 @@ import { TasksService } from '../tasks.service';
   styleUrl: './new-task.component.css',
 })
 export class NewTaskComponent {
-  userId = input.required<string>();
+  userID = input.required<string>();
   enteredTitle = signal('');
   enteredSummary = signal('');
   enteredDate = signal('');
@@ -24,7 +24,7 @@ export class NewTaskComponent {
         summary: this.enteredSummary(),
         date: this.enteredDate(),
       },
-      this.userId()
+      this.userID()
     );
   }
 }
